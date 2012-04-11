@@ -1,0 +1,69 @@
+*{
+	list-style-type:none;
+	margin: 0px auto;
+	padding: 0px auto;
+	text-decoration: none;
+	font-family: "黑体";
+	border:0;
+}
+#nav{
+	height:55px;
+	width:100%;
+	background-color:#8bb200;
+	}
+#left{
+	float:left;
+	height:55px;
+	width:350px;
+	}
+#logo{
+	background-image: url(../img/nav/logo.png);
+	width:200px;
+	height:55px;
+	float:left;
+	background-repeat: no-repeat;
+	background-position: left center;
+	}
+.search{
+	width:220px;
+	height:55px;
+	float:left;
+	}
+.submit{
+	padding-top:8px;
+	width:80px;
+	height:55px;
+	float:left;
+
+	}
+.item{
+	width:50px;
+	height:55px;
+	float:left;
+
+	}		
+#right{
+	float:right;
+	width:655px;
+	height:55px;
+	background-image: url(../img/nav/tattoo.png);
+	background-repeat:no-repeat;
+	background-position: right bottom;
+	}
+#rightlist{
+	float:right;
+	width:550x;
+	height:55px;
+	}
+.input{
+	margin-top:6px;
+		height:38px;
+	width:220px;
+	line-height:38px;
+	padding-left:10px;
+	background-image: url(../img/nav/search.png);
+	background-repeat:no-repeat;
+	background-position: left center;
+	border:0; 
+		background-color:#8bb200;
+	}

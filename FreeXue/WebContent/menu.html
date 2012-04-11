@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册</title>
+
+<style>
+*{
+	list-style-type:none;
+	margin: 0px auto;
+	padding: 0px auto;
+	text-decoration: none;
+	font-family: "黑体";
+
+}
+ul {margin:0px; padding:0px;}
+
+#nav { float: left; height: 30px; }
+#chosen { float: left; position: relative; }
+#nav li a { display: block; padding: 5px 10px; line-height: 20px; }
+#test{ display: none; position: absolute; top: 30px; left: 0; width: 120px; background: #fff; }
+#nav li:hover ul { display: block; }
+
+
+</style>
+<script src="js/jquery-1.7.1.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){	
+
+
+	var temp1="";
+	var temp2="";
+$(".item").mouseenter(function(){
+
+	temp1=$(this).attr("title");
+	temp2=$(this).attr("src");
+	$(this).attr("src",temp1);
+	$(this).attr("title",temp2);
+	//alert($(this).attr("title"));
+		  // $(this).html("<img src=\"img/nav/like_leave.png\" width=\"40\" height=\"55\" />");
+});
+
+
+$(".item").mouseleave(function(){
+
+	temp1=$(this).attr("title");
+	temp2=$(this).attr("src");
+	$(this).attr("src",temp1);
+	$(this).attr("title",temp2);
+	//alert($(this).attr("title"));
+		  // $(this).html("<img src=\"img/nav/like_leave.png\" width=\"40\" height=\"55\" />");
+});
+
+
+
+});
+
+  </script>
+</head>
+
+
+<body>
+<div>
+a
+<li>a</li>
+<ul>
+a
+</ul>
+</div>
+
+ <ul id="nav">
+  <li id="chosen"><a href="#">Item One</a>
+    <ul id="test"> 
+      <li><a href="#">Sub-menu Item 1</a></li>
+      <li><a href="#">Sub-menu Item 2</a></li>
+      <li><a href="#">Sub-menu Item 3</a></li>
+    </ul>
+  </li>
+   <li id="chosen"><a href="#">Item Two</a>
+    <ul id="test"> 
+      <li><a href="#">Sub-menu Item 1</a></li>
+      <li><a href="#">Sub-menu Item 2</a></li>
+      <li><a href="#">Sub-menu Item 3</a></li>
+    </ul>
+  </li>
+   <li id="chosen"><a href="#">Item Three</a>
+    <ul id="test"> 
+      <li><a href="#">Sub-menu Item 1</a></li>
+      <li><a href="#">Sub-menu Item 2</a></li>
+      <li><a href="#">Sub-menu Item 3</a></li>
+    </ul>
+  </li>
+</ul>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a href="javascript:;">Sub-menu Item 3</a>
+
+</body>
+</html>

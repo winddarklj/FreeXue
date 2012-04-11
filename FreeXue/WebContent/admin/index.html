@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<?PHP 
+error_reporting(E_ALL ^ E_NOTICE); 
+session_start();
+  if(!$_SESSION["username"])
+ {
+header("Location:Login.php");	
+	  }
+	  
+?>
+
+
+
+<head>
+
+<title>后台管理</title>
+
+</head>
+
+
+
+<FRAMESET border=0 frameSpacing=0 rows="85, *" frameBorder=0>
+<FRAME name=header src="top.php" frameBorder=0 noResize scrolling=no>
+<FRAMESET cols="200, *">
+<FRAME name=list src="list.php" frameBorder=0>
+<FRAME name=main src="main.php" frameBorder=0 noResize scrolling=yes>
+</FRAMESET>
+</FRAMESET>
+<noframes>
+</noframes>
+</HTML>
+
+
+
+

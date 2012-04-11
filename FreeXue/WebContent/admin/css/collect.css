@@ -1,0 +1,23 @@
+*{
+	list-style-type:none;
+	margin: 0px auto;
+	padding: 0px auto;
+	text-decoration: none;
+	font-family: "黑体";
+}
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: url(../images/bg.jpg) top center no-repeat #0E76BD;
+
+}
+
+#main{
+	margin-top:30px;
+	width:800px;
+	height:550px;
+	border: 1px solid #F00;	
+	}
+#collect{
+	background-color:#FFF;
+	}

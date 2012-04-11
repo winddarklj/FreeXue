@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台登陆入口</title>
+
+<style>
+*{
+	list-style-type:none;
+	margin: 0px auto;
+	padding: 0px auto;
+	text-decoration: none;
+	font-family: "黑体";
+
+}
+body{
+	background-color:#ece9d8;
+	}
+
+
+#main {
+	margin-top:100px;
+	width: 800px;
+	height:420px;
+	background-image:url(images/bg.png);
+}
+#left{
+	width: 340px;
+	height:320px;
+	float:left;
+
+	margin-top:50px;
+	margin-left:50px;
+
+	}
+#right{
+	width: 400px;
+	height:420px;
+	float:right;
+	text-align:center;
+padding-top:70px;
+	}
+
+
+</style>
+  <script src="js/jquery-1.7.1.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){	
+	var temp1="";
+	var temp2="";
+$(".item").mouseenter(function(){
+
+	temp1=$(this).attr("title");
+	temp2=$(this).attr("src");
+	$(this).attr("src",temp1);
+	$(this).attr("title",temp2);
+	//alert($(this).attr("title"));
+		  // $(this).html("<img src=\"img/nav/like_leave.png\" width=\"40\" height=\"55\" />");
+});
+
+
+$(".item").mouseleave(function(){
+
+	temp1=$(this).attr("title");
+	temp2=$(this).attr("src");
+	$(this).attr("src",temp1);
+	$(this).attr("title",temp2);
+	//alert($(this).attr("title"));
+		  // $(this).html("<img src=\"img/nav/like_leave.png\" width=\"40\" height=\"55\" />");
+});
+
+
+
+});
+
+  </script>
+</head>
+
+
+<body>
+
+<div id="main">
+  <div id="left">
+  <h2>FreeXue 欢迎您</h2>
+  <a style="font-size:12px;">欢迎登陆我们的网站</a>
+  <br>
+   <hr style="border:1px dashed #000; height:1px; ">
+  <form action="../index.html" method="post" name="login">
+  <div  style="margin-bottom:5px;"><a>邮箱地址</a></div>
+
+  <input name="email" type="text" id="mail" value="" size="40">
+  
+    <div  style="margin-top:10px;margin-bottom:5px;"><a>密码</a></div>
+
+  <input name="password" type="password" id="password" value="" size="40">
+  
+  <div  style="margin-top:10px;margin-bottom:5px;"><a>验证码</a></div>
+
+  <input name="password" type="password" id="password" value="" size="10">
+  <img src="images/123.png" width="130" height="30" />
+  <a style="font-size:12px;">换一张?</a>
+      <br>
+      <div style="margin-top:30px;"></div>
+      <input type=image src="images/login_button_leave.png" value="登录" name=Submit title="images/login_button_pressed.png" class="item">
+           <a onClick=document.login.reset() 
+                        href="javascript:;"><img class="item" title="images/cancel_button_enter.png"  src="images/cancel_button_leave.png" border=0></a>
+  </form>
+  </div>
+  <div id="right">
+    <img class="item" title="images/signupbutton_enter.png" src="images/signupbutton_leave.png" width="280" height="270" />
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

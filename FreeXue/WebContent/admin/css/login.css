@@ -1,0 +1,34 @@
+*{
+	list-style-type:none;
+	margin: 0px auto;
+	padding: 0px auto;
+	text-decoration: none;
+	font-family: "黑体";
+
+}
+
+
+
+#main {
+	margin-top:100px;
+	width: 800px;
+	height:420px;
+	background-image:url(../images/bg.png);
+}
+#left{
+	width: 340px;
+	height:320px;
+	float:left;
+
+	margin-top:50px;
+	margin-left:50px;
+
+	}
+#right{
+	width: 400px;
+	height:420px;
+	float:right;
+	text-align:center;
+padding-top:70px;
+	}
+

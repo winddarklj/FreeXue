@@ -1,0 +1,322 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: url(../images/bg.jpg) top center no-repeat #0E76BD;
+	line-height: 18px;
+	padding-bottom: 23px;
+}
+
+#main {
+	width: 1014px;
+	margin: 0px auto;
+}
+
+#header { 
+width:100%;
+background: url(../images/header.jpg) left top no-repeat;
+height: 323px;
+}
+
+#logo {	font-family: Arial, Helvetica, sans-serif;
+		color:#FFFFFF;
+		font-size:18px;
+		font-style:italic;
+		padding: 62px 0px 0px 667px;
+		background: url(../images/big_img.jpg) left top no-repeat;
+		height: 60px;
+}
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+
+#logo H2 a{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: none;
+	font-weight:100;
+}
+
+#buttons{
+	width: 665px;
+	background: url(../images/bg_but.jpg) left top no-repeat;
+	text-align:center;
+	height: 46px;
+	margin-left: 350px;
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	display: block;
+	float: left;
+	height: 34px;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding-top: 12px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.but1 { background: url(../images/but1.png) left top no-repeat;
+width: 134px;
+}
+.but1:hover { background:url(../images/but11.png) left top no-repeat;}
+
+.but2 { background: url(../images/but2.png) left top no-repeat;
+width: 132px;
+}
+.but2:hover { background:url(../images/but22.png) left top no-repeat;}
+
+.but3 { background: url(../images/but3.png) left top no-repeat;
+width: 132px;
+}
+.but3:hover { background:url(../images/but33.png) left top no-repeat;}
+
+.but4 { background: url(../images/but4.png) left top no-repeat;
+width: 132px;
+}
+.but4:hover { background:url(../images/but44.png) left top no-repeat;}
+
+.but5 { background: url(../images/but5.png) left top no-repeat;
+width: 135px;
+}
+.but5:hover { background:url(../images/but55.png) left top no-repeat;}
+
+#buttons a:hover {
+	text-decoration: underline;
+}
+
+#box_all {
+height: 251px;
+background:url(../images/all_box.jpg) left top no-repeat;
+padding-top: 10px;}
+
+#box_all h1 {
+text-align:center;
+font-size:18px;
+color:#FFFFFF;
+font-weight:100;
+padding: 12px 0px 23px 0px;}
+
+#box_all .text {
+padding: 0px 10px 0px 20px;}
+
+.box_munth {
+float: left;
+width: 132px;
+padding: 0px 0px 0px 13px}
+
+.munth {
+color:#FFFFFF;
+font-weight:bold;
+background: url(../images/box_fish1.png) 0px 11px no-repeat;
+padding: 7px  0px 7px 28px;
+text-decoration:none;}	
+
+.munth a{color:#FFFFFF;
+font-weight:bold;
+text-decoration:none;}
+
+.munth:hover {
+text-decoration: none;
+background: url(../images/box_fish.png) 0px 11px no-repeat;
+}
+
+h5 {
+font-weight: 100;
+font-size:18px;
+color:#10156F;
+padding: 13px 0px 5px 0px}	
+
+.box {
+width: 206px;
+height: 240px;
+float: left;
+} 
+
+.box_razd {float:left; width: 10px; height: 10px;}
+
+.box1 { background:url(../images/box1.png) ;}
+.box2 { background:url(../images/box2.png) ;}
+.box3 { background:url(../images/box3.png) ;
+width: 211px}
+.box4 { background:url(../images/box4.png) ;}
+
+.b { color: #0E76BD;
+font-weight:100;
+font-style:italic;}	
+.g { color: #0D748A;
+font-weight:100;
+font-style:italic;}
+.gr { color: #0E9A40;
+font-weight:100;
+font-style:italic;}
+.o { color: #DE7C09;
+font-weight:100;
+font-style:italic;}
+
+.img_box {	float:left;
+		margin: 6px 7px 3px 0px;
+}
+
+#top_tb {
+width: 1014px;
+height: 19px;
+background: url(../images/tb_top.jpg) right bottom no-repeat #FFFFFF;
+}
+
+#bot_tb {
+width: 1014px;
+height: 19px;
+background: url(../images/tb_bot.jpg) right top no-repeat #FFFFFF;
+}
+
+#tb{
+	width: 1014px;
+	padding: 0px 0px 0px 0px;
+	background: url(../images/tb_bg.gif) right repeat-y #FFFFFF;
+	margin: 0px 0px 0px 0px;
+}
+
+#left{
+	width: 330px;
+	margin: 0px 0px 0px 12px;
+	float: left;
+	color:#000000;
+}
+
+.right_b {
+		padding-left: 52px;
+		padding-right: 5px;
+}
+.fish_10 { background: url(../images/fish_10.gif) 0px 0px no-repeat;}
+.fish_11 { background: url(../images/fish_11.gif) 0px 0px no-repeat;}
+
+.text{
+	padding: 0px 0px 0px 0px;
+}
+
+.img {	float:left;
+		margin: 7px 16px 3px 0px;
+}
+
+.img_r {	float: right;
+		margin: 7px 0px 3px 16px;
+}
+
+span {font-weight:bold;}
+
+#left span {	color:#000000;
+		font-weight:bold;
+		font-size:14px;
+}
+
+#right span {	
+		font-weight:bold;
+}
+.bl {color:#2A3A83;}
+
+#left H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #2A3A83;
+	text-align:left;
+	padding: 5px 0px 10px 0px;
+}
+
+#right H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #2A3A83;
+	text-align:left;
+	padding: 5px 0px 10px 0px;
+}
+
+.read{
+	text-align:right;
+	padding-right:5px;
+	padding-top: 6px;
+	font-weight:bold;
+}
+
+.pad_view {padding-right:15px;}
+
+
+
+.read a{
+color: #0056CC;
+text-decoration: underline;}
+
+.read a:hover {
+text-decoration:none;}
+
+#right{
+float: right;
+width: 620px;
+margin-right: 18px;
+padding: 0px 0px 0px 0px;
+}
+
+.col { width: 620px;}
+
+.col_left { float:left;
+width: 203px;}
+
+.images {
+height: 200px;
+padding-top: 3px;}
+
+.img_col { float:left;
+margin: 7px 7px 0px 0px;}
+
+.col_right { float: right;
+width: 417px;
+padding-top: 8px;}
+
+#footer{
+	height: 50px;
+	width: 100%;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	clear:both;
+	padding: 13px 0px 0px 0px;
+	background: url(../images/footer.jpg) 0px 0px  no-repeat;
+}
+
+#footer a{
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: underline;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册</title>
+
+<style>
+*{
+	list-style-type:none;
+	margin: 0px auto;
+	padding: 0px auto;
+	text-decoration: none;
+	font-family: "黑体";
+
+}
+body{
+	background-color:#ece9d8;
+	}
+
+
+#main {
+	margin-top:60px;
+	width: 640px;
+	height:500px;
+	background-color:#FFF;
+
+}
+#left{
+	width: 580px;
+	height:320px;
+	float:left;
+	margin-top:30px;
+	margin-left:30px;
+
+	}
+
+
+
+</style>
+<script src="js/jquery-1.7.1.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){	
+	var temp1="";
+	var temp2="";
+$(".item").mouseenter(function(){
+
+	temp1=$(this).attr("title");
+	temp2=$(this).attr("src");
+	$(this).attr("src",temp1);
+	$(this).attr("title",temp2);
+	//alert($(this).attr("title"));
+		  // $(this).html("<img src=\"img/nav/like_leave.png\" width=\"40\" height=\"55\" />");
+});
+
+
+$(".item").mouseleave(function(){
+
+	temp1=$(this).attr("title");
+	temp2=$(this).attr("src");
+	$(this).attr("src",temp1);
+	$(this).attr("title",temp2);
+	//alert($(this).attr("title"));
+		  // $(this).html("<img src=\"img/nav/like_leave.png\" width=\"40\" height=\"55\" />");
+});
+
+
+
+});
+
+  </script>
+</head>
+
+
+<body>
+
+<div id="main">
+  <div style="height:40px; background-color:#e8b229;"></div>
+  <div id="left">
+
+  <h2>欢迎创建FreeXue账号</h2>
+  <a style="font-size:12px;">学习从这里开始</a>
+  <br><br>
+   <hr style="border:1px dashed #000; height:1px; ">
+   <br>
+  <form action="../index.html" method="post" name="login">
+  <div  style="margin-bottom:5px;"><a>邮箱地址:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>   <input name="email" type="text" id="mail" value="" size="40"> 
+  <div  style="margin-bottom:5px;"><a style="font-size:12px; color:#999;">我们会发验证邮件到该邮箱里</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size:13px;">不用担心,我们不用将您的邮箱有座商业用途</a></div>
+
+
+ <div  style="margin-bottom:5px;"><a>密码:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>   <input name="password" type="password" id="password" value="" size="18">  <input name="repassword" type="repassword" id="password" value="" size="18">
+  <div  style="margin-bottom:5px;margin-top:5px;"><a style="font-size:12px; color:#999;">请确保密码的安全性</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size:13px;">请输入密码</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size:13px;">请再次输入密码</a></div>
+      <div style="margin-top:30px;"></div>
+     
+                        
+                        
+<div  style="margin-bottom:5px;"><a>昵称:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>   <input name="email" type="text" id="mail" value="" size="40"> 
+  <div  style="margin-bottom:5px;"><a style="font-size:12px; color:#999;">您自定义的称呼</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size:13px;">会使用在您的个人主页中</a></div>
+ 
+   <div  style="margin-bottom:5px;margin-top:10px; height:90px;line-height:90px; background-image:url(images/mouse_enter1.png);	background-position: left center;"><a>&nbsp;阅读和条款</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size:13px;"><input name="" type="checkbox" value="" />我已经阅读并且同意FreeXue的条款和声明</a></div>
+ 
+<input type=image src="images/login_button_leave.png" value="登录" name=Submit title="images/login_button_pressed.png" class="item">
+           <a onClick=document.login.reset() 
+                        href="javascript:;"><img class="item" title="images/cancel_button_enter.png"  src="images/cancel_button_leave.png" border=0></a>
+  </form>
+  </div>
+</div>
+
+
+</body>
+</html>

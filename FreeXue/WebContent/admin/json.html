@@ -1,0 +1,38 @@
+<html>   
+  <head>   
+    <title> 使用jquery  ajax显示JSON数据</title>   
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">   
+    <script language="javascript" src="js/jquery-1.7.1.js"></script>   
+  </head>   
+  <body>   
+    <h1>JSON 数据显示.</h1>   
+    <input type="button" value="JsonView" onClick="jsonview();">   
+    <div id="dateMessage">   
+        <table id="planTable">   
+            <tr><td> 名称</td><td>年龄</td><td>邮箱</td></tr>   
+        </table>   
+    </div>   
+  </body>   
+</html>   
+<script language="javascript">   
+    function jsonview(){   
+        $.getJSON("http://localhost:8080/ajaxServlet/servlet/jsonViewServlet",null,function call(data){   
+        wirteHtml(data);   
+    });}   
+    function wirteHtml(data){   
+        //alert(data.toJSONString());   
+        //alert(data.jobs); //返回的data就是一个JSON的对象   
+        var continents = data.jobs;   
+        for(var i=0;i<continents.length;i++){   
+            //alert(continents[i].name);   
+             var newLine = $("#planTable").length;   
+             var row = planTable.insertRow(newLine);   
+             var col = row.insertCell(0);   
+             col.innerHTML = continents[i].name;   
+             col = row.insertCell(1);   
+             col.innerHTML = continents[i].age;   
+             col = row.insertCell(2);   
+             col.innerHTML = continents[i].email;   
+        }   
+    }   
+</script>   

@@ -1,0 +1,39 @@
+*
+{
+border: 0 atuo;
+margin: 0 auto;
+text-decoration:none;
+}
+#main{
+	width:700px;
+	height:550px;
+	margin-top:50px;
+	border:#F00 solid 1px;
+
+	}
+	
+#left{
+	width:50%;
+border:#F00 solid 1px;
+	float:left;
+	}
+#mid{
+	width:45%;
+	height:550px;
+border:#F00 solid 1px;
+	float:left;
+	}
+#right{
+	width:49%;
+		height:550px;
+border:#F00 solid 1px;
+	float:left;
+	}
+	
+	
+.STYLE1 {font-size: 12px}
+.STYLE3 {font-size: 12px; font-weight: bold; }
+.STYLE4 {
+	color: #03515d;
+	font-size: 12px;
+}

@@ -1,0 +1,172 @@
+*{
+	list-style-type:none;
+	margin: 0px auto;
+	padding: 0px auto;
+	text-decoration: none;
+	font-family: "黑体";
+}
+
+
+#logo{
+	margin-left:35px;
+	float:left;
+	background:url(../img/logo.png) no-repeat left center; 
+	height:120px;
+	width:300px;
+
+	}
+
+
+#top{
+height:120px;
+		
+	
+	}
+#login{
+	padding-right:10%;
+	padding-top:40px;
+ text-align:right
+}
+
+#username,#password
+{ 
+	vertical-align:bottom;
+	height:25px;
+	width:113px;
+	line-height:25px;
+	background:url(../img/userpassFrame0.png) no-repeat left top; 
+	border:0; 
+	padding:2px 6px;
+	}
+#loginbottom{
+		vertical-align:bottom;
+	}
+
+#title{
+	height:80px;
+	width:100%;
+	border: 1px solid #F00;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	}
+	
+#subtitle{
+	height:50px;
+	width:100%;
+
+	background-image: url(../img/3free.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	}
+
+#mid{
+
+	height:450px;
+	width:100%;
+	background-image: url(../img/background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+
+	
+	}
+
+.ball{
+	background-image: url(../img/button_orange_original.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	float:left;
+	width:33%;
+	height:120px;
+	text-align:center;
+	line-height:120px;
+	
+
+
+	}
+.ball a{
+
+	color:#FFF;
+	font-size: 42px;
+
+}
+	
+#first{
+	background-image: url(../img/button_blue_original.png);
+	left:0%;
+
+	}
+#second{
+
+
+	left:33.333%;
+
+	}
+#third{
+
+	left:66.6666%;
+	}
+	
+.level1{
+	margin-top:25px;
+	float:left;
+	width:20%;
+	height:84px;
+	background-image: url(../img/button_second_5_2_original.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align:center;
+	line-height:84px;
+
+}
+
+.level1 a{	
+	color:#FFF;
+	font-size: 36px;
+}
+.level3{
+	margin-top:80px;
+	float:left;
+	width:20%;
+	height:84px;
+	background-image: url(../img/button_second_5_2_original.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align:center;
+	line-height:84px;
+}
+
+.level3 a{	
+	color:#FFF;
+	font-size: 20px;
+}
+
+.level2{
+	margin-top:25px;
+	float:left;
+	width:33%;
+	height:184px;
+	background-image: url(../img/button_second_3_1_original.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align:center;
+	line-height:184px;
+}
+
+.level2 a{	
+	color:#FFF;
+	font-size: 36px;
+}
+#showbox{
+	width:640px;
+	height:0px;
+	margin-bottom: -16px;
+	overflow:hidden;
+
+	}
+	
+#select{
+		margin-top:120px;
+		height:150px;
+		width:650px;
+	}
